@@ -37,7 +37,6 @@ export interface Skills {
   databases: string[];
   devops_cloud: string[];
   iot_hardware: string[];
-  soft_skills: string[];
 }
 
 export interface ProjectLink {
@@ -67,10 +66,7 @@ export interface Project {
 export interface Social {
   linkedin: string;
   github: string;
-  twitter: string;
-  kaggle: string;
-  leetcode: string;
-  fiverr: string;
+  instagram: string;
 }
 
 export interface Internship {
