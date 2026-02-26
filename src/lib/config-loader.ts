@@ -36,20 +36,17 @@ try {
     skills: {
       programming: [],
       ml_ai: [],
-      web_development: [],
-      databases: [],
-      devops_cloud: [],
-      iot_hardware: [],
+      embedded_systems: [],
+      tools: [],
+      networking: [],
+      fabrication: [],
       soft_skills: []
     },
     projects: [],
     social: {
       linkedin: '',
       github: '',
-      twitter: '',
-      kaggle: '',
-      leetcode: '',
-      fiverr: ''
+      instagram: '',
     },
     internship: {
       seeking: false,
