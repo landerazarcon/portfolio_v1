@@ -42,3 +42,9 @@ next-env.d.ts
 
 # landing page repo (separate repository)
 /landing-page/
+
+#added as suggested by Claude
+.vs/
+.next/
+node_modules/
+.env.local

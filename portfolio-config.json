@@ -1,363 +1,177 @@
 {
   "personal": {
-    "name": "Anuj Jain",
-    "age": 22,
-    "location": "Vidisha, Madhya Pradesh, India",
-    "title": "Full-stack Python Developer & AI Engineer",
-    "email": "anujjainbatu@gmail.com",
-    "phone": "+91 8305117236",
-    "handle": "@anujjainbatu",
-    "bio": "Hey 👋\nI'm Anuj, a passionate Full-stack Python developer and AI engineer with experience across ML, Generative AI, and IoT. Amazon ML Summer School trainee, SIH 2025 finalist, and active freelancer with 25+ delivered automation projects. I love building end-to-end smart systems — from IoT devices to LLM-powered applications.",
-    "avatar": "/profile.jpeg",
-    "fallbackAvatar": "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3"
+    "name": "Lander Joshua O. Azarcon",
+    "age": 24,
+    "location": "Parañaque City, Philippines",
+    "title": "Computer Engineer | Embedded Systems & Computer Vision Developer | Startup Founder",
+    "email": "landerazarcon@gmail.com",
+    "phone": "09672694639",
+    "handle": "@landerazarcon",
+    "bio": "Hi 👋\n I'm Lander, a Computer Engineering graduate and founder of Vision Forge. I specialize in embedded systems, computer vision, and product-driven innovation. I enjoy building hardware-software integrated systems and leading projects from prototype to validation.",
+    "avatar": "/profile.jpg",
+    "fallbackAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
   },
   "education": {
     "current": {
-      "degree": "B.Tech in Internet of Things",
-      "institution": "Samrat Ashok Technological Institute (SATI)",
-      "duration": "2022-2026",
-      "cgpa": "7.85/10.0",
-      "graduationDate": "June 2026"
+      "degree": "B.S. in Computer Engineering",
+      "institution": "Far Eastern University Institute of Technology",
+      "duration": "Graduated November 2025",
+      "cgpa": null,
+      "graduationDate": "November 2025"
     },
     "previous": {
-      "degree": "Higher Secondary Certificate (Science Stream)",
-      "institution": "Board of Secondary Education, MP",
-      "duration": "2021",
-      "percentage": "96.4%",
-      "completionDate": "March 2021"
+      "degree": "B.S. in Electronics Engineering",
+      "institution": "Mapua University",
+      "duration": "June 2015 – July 2018",
+      "completionDate": "July 2018"
     },
     "achievements": [
-      "Smart India Hackathon 2025 Finalist (2nd among 88,221 teams)",
-      "Amazon ML Summer School Trainee (Selected from 60,000+ applicants)",
-      "HDFC Badhte Kadam Scholarship recipient (2023 & 2024)",
-      "Satyarth Techfest 2023: 3rd position in Robo Race"
+      "Civil Service Exam (Professional Level) – 88.06 General Rating",
+      "FTIC Tamaraw Labs Startup Incubation Program Graduate"
     ]
   },
   "experience": [
     {
-      "company": "Amazon ML Summer School",
-      "position": "Trainee",
-      "type": "Training Program",
-      "duration": "August 2025",
-      "description": "Selected from 60,000+ applicants for intensive machine learning program. Completed 8 modules covering Supervised/Unsupervised Learning, Deep Neural Networks, Sequential Models, Reinforcement Learning, Generative AI, and Causal Inference. Gained hands-on experience with Amazon-scale ML systems and recommendation engines.",
-      "technologies": ["Machine Learning", "Deep Neural Networks", "Reinforcement Learning", "Generative AI", "Sequential Models", "Causal Inference"]
-    },
-    {
-      "company": "MookMati",
-      "position": "Machine Learning Intern",
+      "company": "Far Eastern University Institute of Technology Innovation Center (FTIC)",
+      "position": "Programs Department Intern",
       "type": "Internship",
-      "duration": "July 2024",
-      "description": "AI-Powered Book Startup - Developed ML model for book genre classification using TF-IDF and XGBoost, achieving 88% F1-score. Engineered FastAPI backend with REST endpoints for genre prediction and recommendations. Containerized and deployed service on AWS EC2 with monitoring and auto-restart capabilities.",
-      "technologies": ["Python", "Machine Learning", "TF-IDF", "XGBoost", "FastAPI", "AWS EC2", "Docker"]
+      "duration": "January 2025 – March 2025",
+      "description": "Developed modular learning materials for Design Thinking programs. Applied affinity clustering methodologies for structured program development. Planned and executed large-scale events including Design Thinking Summit and iTam Design Jam 2025. Coordinated with stakeholders including international speakers.",
+      "technologies": ["Design Thinking", "Excel", "OneDrive", "Event Operations", "Program Structuring"]
     },
     {
-      "company": "Fiverr",
-      "position": "Freelance Python & AI Developer",
-      "type": "Freelance",
-      "duration": "August 2023 - Present",
-      "description": "Delivered 25+ Python automation solutions reducing manual work by 60% for global clients. Built GenAI-powered chatbots and autonomous agents using LangChain, LangGraph, OpenAI APIs. Developed LLM-backed APIs using FastAPI and Docker for conversational AI integration.",
-      "technologies": ["Python", "LangChain", "LangGraph", "OpenAI API", "FastAPI", "Docker", "Web Scraping", "Automation"]
+      "company": "Far Eastern University Institute of Technology Innovation Center (FTIC)",
+      "position": "Operations Department Intern",
+      "type": "Internship",
+      "duration": "September 2024 – November 2024",
+      "description": "Conducted QR-based survey analytics for lounge engagement tracking. Managed reception operations and assisted technical setup for events. Prepared 3D models and supported 3D printing operations.",
+      "technologies": ["Excel", "QR Systems", "3D Printing", "Event Tech Setup"]
+    },
+    {
+      "company": "Vision Forge",
+      "position": "CEO & Founder",
+      "type": "Startup",
+      "duration": "April 2025 – Present",
+      "description": "Founded and led a product-focused technology startup incubated under FTIC Tamaraw Labs. Designed multifunctional drafting stationery eliminating the need for a T-square. Conducted 50+ user validation interviews, refined prototypes, filed intellectual property documents, and completed incubation phase.",
+      "technologies": ["Product Design", "User Validation", "IP Filing", "Strategic Planning", "Prototype Development"]
+    },
+    {
+      "company": "Family-Run Egg Production Farm",
+      "position": "Apprentice",
+      "type": "Apprenticeship",
+      "duration": "March 2022 – August 2022",
+      "description": "Managed harvesting, sorting, and distribution. Conducted competitor marketing analysis and designed promotional materials for retailers.",
+      "technologies": ["Operations Management", "Marketing Analysis", "Distribution Logistics"]
     }
   ],
   "skills": {
-    "programming": ["Python", "JavaScript", "SQL", "HTML/CSS", "TypeScript"],
-    "ml_ai": ["Scikit-learn", "XGBoost", "TensorFlow", "OpenCV", "Pandas", "NumPy", "LangChain", "LangGraph", "OpenAI API", "LLM Agents", "ChatGPT Integration", "Hugging Face"],
-    "web_development": ["React.js", "Next.js", "FastAPI", "Flask", "Django", "Firebase SDK", "REST APIs", "Tailwind CSS", "Node.js"],
-    "databases": ["PostgreSQL", "MongoDB", "Firebase", "MySQL"],
-    "devops_cloud": ["Docker", "Git", "GitHub Actions", "CI/CD", "AWS (EC2/S3)", "Firebase", "Heroku"],
-    "iot_hardware": ["ESP32", "Arduino", "PCB Design", "Hardware Development", "IoT Systems", "Raspberry Pi"],
-    "soft_skills": ["Problem Solving", "Team Leadership", "Project Management", "Communication", "Learning Agility", "Innovation"]
+    "programming": ["C++", "Java", "Python", "SQL", "PHP", "Bash"],
+    "ml_ai": ["Computer Vision", "Image Processing", "Dataset Curation", "Machine Learning"],
+    "embedded_systems": ["Arduino", "Circuit Design", "PCB Assembly", "Ultrasonic Sensors"],
+    "tools": ["AutoCAD", "MATLAB", "Anaconda", "Jupyter Notebook", "Visual Studio", "Apache NetBeans", "Quartus"],
+    "networking": ["Cisco Packet Tracer", "LAN/WAN Configuration", "TCP/IP", "Network Troubleshooting"],
+    "fabrication": ["3D Printing", "Precision Measurement Tools", "Hardware Prototyping"],
+    "soft_skills": ["Leadership", "Event Management", "Strategic Planning", "Stakeholder Coordination"]
   },
   "certifications": [
-    {
-      "name": "Joy of Computing with Python",
-      "issuer": "IIT Madras (NPTEL)",
-      "grade": "Elite + Silver",
-      "year": "2024"
-    },
-    {
-      "name": "Machine Learning Specialization",
-      "issuer": "Stanford University (Coursera)",
-      "year": "2024"
-    },
-    {
-      "name": "Meta Front-End Developer Professional Certificate",
-      "issuer": "Meta (Coursera)",
-      "year": "2024"
-    },
-    {
-      "name": "Java Programming & Software Engineering",
-      "issuer": "Duke University (Coursera)",
-      "year": "2023"
-    }
+    { "name": "Introduction to Cybersecurity", "issuer": "Cisco Networking Academy", "year": "2024" },
+    { "name": "Cybersecurity Essentials", "issuer": "Cisco Networking Academy", "year": "2024" },
+    { "name": "CCNAv7: Enterprise Networking, Security, and Automation", "issuer": "Cisco Networking Academy", "year": "2024" },
+    { "name": "Information Technology Specialist in Python", "issuer": "Certiport", "year": "2024" },
+    { "name": "Information Technology Specialist in Java", "issuer": "Certiport", "year": "2023" },
+    { "name": "CCNAv7: Switching, Routing, and Wireless Essentials", "issuer": "Cisco Networking Academy", "year": "2023" }
   ],
   "projects": [
     {
-      "title": "AI-Powered Developer Portfolio",
-      "category": "AI/Web Development",
-      "description": "Built customizable portfolio platform using Next.js, TypeScript, and Google Gemini API. Implemented AI-driven content generation and resume parsing for automated portfolio creation. Features include dynamic chatbot, responsive design, and Vercel deployment.",
-      "techStack": ["Next.js", "TypeScript", "Google Gemini API", "React", "Tailwind CSS", "Vercel"],
-      "date": "April 2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "Live Site",
-          "url": "https://portfolio.anujjainbatu.tech/"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/portfolio"
-        }
+      "title": "Abacus GesturePRO",
+      "category": "Computer Vision / Educational AI System",
+      "description": "A real-time finger abacus gesture recognition tutorial and assessment system using computer vision. The system tracks hand landmarks, interprets finger configurations into abacus values, provides guided tutorials, and evaluates user performance. Built with live webcam processing and structured dataset validation.",
+      "techStack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "NumPy",
+        "Tkinter",
+        "Matplotlib",
+        "Pandas"
       ],
+      "hardware": [
+        "Webcam (Real-time Video Capture)",
+        "Desktop/Laptop Development Environment"
+      ],
+      "date": "2024–2025",
+      "status": "Completed (Thesis)",
+      "featured": true,
+      "links": [],
       "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/portfolio/main/assets/portfolio.png",
-          "alt": "Portfolio Homepage"
-        }
+       { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/thesisfront.png", "alt": "Thesis Paper Front Page" },
+       { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/thesisproto.jpg", "alt": "Thesis Prototype" },
+       { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/gesturehandpics.png", "alt": "Data Collection for ML Training" },
+       { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/gesturemain.png", "alt": "Main Page" },
+       { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/gesturegame.png", "alt": "Practice Mode" },
+       { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/gesturetest.png", "alt": "Live Demo with Elementary Students" }
       ]
     },
     {
-      "title": "Insurance Premium Prediction API",
-      "category": "Backend API/Machine Learning",
-      "description": "Built production-ready ML inference API with FastAPI and Pydantic validation. Dockerized application with comprehensive monitoring endpoints and Swagger documentation. Designed scalable architecture following industry best practices for input validation and error handling.",
-      "techStack": ["Python", "FastAPI", "Pydantic", "Docker", "Machine Learning", "Swagger", "Uvicorn"],
-      "date": "September 2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/insurance-premium-prediction-fastapi"
-        },
-        {
-          "name": "Docker Hub",
-          "url": "https://hub.docker.com/r/anujjainbatu/insurance-premium-api"
-        },
-        {
-          "name": "Live API Docs",
-          "url": "http://51.20.55.205:8000/docs"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/insurance-premium-prediction-fastapi/main/assets/demo.gif",
-          "alt": "Insurance Premium Prediction API Demo"
-        }
-      ]
-    },
-    {
-      "title": "LeetConnect",
-      "category": "Chrome Extension",
-      "description": "JavaScript-based Chrome Extension that connects you with friends and tracks LeetCode statistics in real-time. Stay motivated by seeing your friends' progress, get notified when they solve new problems, and manage your study group or team's coding journey together.",
-      "techStack": ["JavaScript", "Chrome Extension Manifest V3", "HTML", "CSS", "Chrome Storage API", "Chrome Notifications API", "LeetCode API"],
+      "title": "Embedded Ultrasonic Musical Instrument",
+      "category": "Embedded Systems",
+      "description": "Designed a proximity-based musical instrument using ultrasonic sensors for real-time pitch modulation. Developed Arduino firmware and custom PCB.",
+      "techStack": ["Arduino", "C++", "Ultrasonic Sensor", "PCB Design"],
       "date": "2024",
+      "status": "Completed",
+      "featured": true,
+      "links": [],
+      "images": [
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embedpaper.png", "alt": "Embedded Systems Project Front Page" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embedflow.png", "alt": "Proximiboard Flowchart" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embeddiag.png", "alt": "Diagram" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embedcode.png", "alt": "Source Code" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embedtest.png", "alt": "Arduino Testing" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embedsession.png", "alt": "PCB and Enclosure Assembly" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/embedproto.png", "alt": "Proximiboard Final Prototype" }
+      ]
+    },
+    {
+      "title": "Vision Forge Product Development",
+      "category": "Startup / Hardware Innovation",
+      "description": "Designed and validated multifunctional drafting stationery eliminating T-square usage. Conducted 50+ interviews and refined prototype through structured testing.",
+      "techStack": ["Product Design", "User Research", "Hardware Prototyping"],
+      "date": "2025",
       "status": "Ongoing",
       "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/leetconnect"
-        },
-        {
-          "name": "Demo GIF",
-          "url": "https://raw.githubusercontent.com/anujjainbatu/leetconnect/main/assets-landing/screenshots/demo-web.gif"
-        }
-      ],
+      "links": [],
       "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/leetconnect/main/assets-landing/screenshots/demo-web.gif",
-          "alt": "LeetConnect Extension Demo"
-        }
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/vforgeposter3.jpg", "alt": "Vision Forge" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/vforgeposter2.jpg", "alt": "Vision Forge Poster" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/vforgefb.png", "alt": "FB Post by FTIC" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/vforgeaim.png", "alt": "Meeting with AIM-DBI" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/vforgeteam.png", "alt": "Echelon 2025 at SMX" },
+        { "src": "https://raw.githubusercontent.com/landerazarcon/portfolio_v1/main/public/vforgewother.jpg", "alt": "Team Vision Forge at Echelon 2025 alongside Team TecHood" }
       ]
-    },
-    {
-      "title": "IntelliPrice",
-      "category": "Machine Learning",
-      "description": "ML-powered laptop price prediction system built with Streamlit. Features clean interface, fast predictions, and easy deployment via Docker. Uses key attributes like brand, CPU, RAM, storage, GPU, and screen size for accurate real-time price estimates.",
-      "techStack": ["Python", "Streamlit", "scikit-learn", "Docker", "Pandas", "Machine Learning"],
-      "date": "2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/IntelliPrice"
-        },
-        {
-          "name": "Demo GIF",
-          "url": "https://github.com/anujjainbatu/IntelliPrice/blob/main/assets/demo.gif"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://github.com/anujjainbatu/IntelliPrice/blob/main/assets/demo.gif?raw=true",
-          "alt": "IntelliPrice App Demo"
-        }
-      ]
-    },
-    {
-      "title": "SpamSense",
-      "category": "NLP System",
-      "description": "NLP-based spam detection tool that predicts whether marketing emails will land in inbox or spam folder. Features Streamlit web interface and scikit-learn ML model trained on real spam datasets for agencies to optimize campaign deliverability.",
-      "techStack": ["Python", "Streamlit", "scikit-learn", "NLP", "Machine Learning", "Heroku"],
-      "date": "2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/spamsense"
-        },
-        {
-          "name": "Demo GIF",
-          "url": "https://github.com/anujjainbatu/spamsense/blob/main/assets/demo.gif"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/spamsense/main/assets/demo.gif",
-          "alt": "SpamSense Demo"
-        }
-      ]
-    },
-    {
-      "title": "PopcornPicks",
-      "category": "Machine Learning",
-      "description": "Movie recommendation system built with Streamlit. Select a movie you like and get personalized recommendations with detailed information and posters. Uses machine learning to suggest similar movies based on selection using movie metadata and similarity matrix.",
-      "techStack": ["Python", "Streamlit", "Pickle", "scikit-learn", "pandas", "Heroku"],
-      "date": "2024",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/popcornpicks"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Chess Trace",
-      "category": "IoT System",
-      "description": "Built an IoT-enabled chessboard using ESP32, multiplexers, and 64 reed switches with 98.2% move detection accuracy at 1/8th the commercial cost. Features real-time move logging to Firebase, a web dashboard for live analysis and replay, and Stockfish-powered engine integration. Led a 3-member team through hardware prototyping, firmware development, cloud setup, and user testing with 20+ players.",
-      "techStack": ["ESP32", "C++ (Arduino)", "HTML", "CSS", "JavaScript", "Firebase", "Stockfish.js", "PCB Design", "IoT", "Cloud Integration", "Hardware Development"],
-      "date": "2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/chess-trace"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/chess-trace/main/assets/solution_architecture_dia.jpeg",
-          "alt": "Solution Architecture Diagram"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/chess-trace/main/assets/product.png",
-          "alt": "Product"
-        }
-      ]
-    },
-    {
-      "title": "Pralay Mitra",
-      "category": "AI/Disaster Management",
-      "description": "AI-powered disaster management system to assist government officials during emergencies. Features interactive dashboard, real-time high-risk city alerts, AI chatbot (Gemini API) for response planning, and centralized resources for food, shelter, and medical aid.",
-      "techStack": ["Python", "Django", "JavaScript", "Bootstrap", "FontAwesome", "Gemini API"],
-      "date": "2024",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/Pralay_Mitra"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "hideFlare: CDN Obfuscation Detection System",
-      "category": "Cybersecurity Tool",
-      "description": "Python tool to uncover real hosting details of websites protected by Cloudflare. Automates subdomain enumeration, SSL analysis, ASN/org/GeoIP lookups, historical IP resolution, and outputs results for security researchers. Used for SIH 2024 finalist project for MP Police.",
-      "techStack": ["Python", "Subdomain Enumeration", "SSL Analysis", "SecurityTrails API"],
-      "date": "2024",
-      "status": "Completed",
-      "featured": true,
-      "achievements": ["Smart India Hackathon 2024 Finalist"],
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/hideFlare"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Python Automation Suite",
-      "category": "Automation",
-      "description": "Delivered 25+ Python automation projects for global clients, including web scraping, API bots, and data pipelines. Built GenAI-powered chatbots and autonomous agents using LangChain, LangGraph, and OpenAI APIs, reducing manual work by 60%.",
-      "techStack": ["Python", "LangChain", "LangGraph", "OpenAI API", "Web Scraping", "Automation", "FastAPI", "Docker"],
-      "date": "2023-Present",
-      "status": "Ongoing",
-      "featured": true,
-      "metrics": ["25+ Projects Delivered", "60% Manual Work Reduction"],
-      "links": [
-        {
-          "name": "Fiverr Profile",
-          "url": "https://www.fiverr.com"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu"
-        }
-      ],
-      "images": []
     }
   ],
   "social": {
-    "linkedin": "https://linkedin.com/in/anujjainbatu",
-    "github": "https://github.com/anujjainbatu",
-    "twitter": "https://x.com/anujainbatu",
-    "kaggle": "https://www.kaggle.com/anujjainbatu",
-    "leetcode": "https://leetcode.com/u/anujjainbatu/",
-    "fiverr": "https://www.fiverr.com",
-    "portfolio": "https://portfolio.anujjainbatu.tech/"
-  },
-  "internship": {
-    "seeking": true,
-    "duration": "6 months",
-    "startDate": "February 2025",
-    "preferredLocation": "Remote or On-site",
-    "focusAreas": ["AI Development", "Full-stack Development", "Machine Learning", "Generative AI"],
-    "availability": "Available for immediate start",
-    "workStyle": "Fast learner, team player, problem solver with hands-on experience in production systems",
-    "goals": "Join an innovative team building AI-powered solutions. I want to contribute to meaningful projects while growing my skills in enterprise-level development and scaling ML systems."
+    "linkedin": "https://linkedin.com/in/lander-joshua-azarcon-766650296",
+    "github": "https://github.com/landerazarcon",
+    "portfolio": "https://github.com/landerazarcon/portfolio_v1",
+    "instagram":"https://www.instagram.com/landerazarcon"
   },
   "personality": {
-    "traits": ["passionate", "curious", "determined", "collaborative", "results-driven"],
-    "interests": ["AI/ML", "Generative AI", "IoT", "Web Development", "Open Source", "Hackathons", "Automation"],
-    "funFacts": [
-      "Smart India Hackathon 2025 finalist among 88,221 teams",
-      "Amazon ML Summer School trainee (top 5% selection rate)",
-      "Built 25+ automation projects reducing manual work by 60%",
-      "Achieved 88% F1-score in ML model for book genre classification"
-    ],
-    "workingStyle": "I move fast, learn faster, and love tackling challenging problems with scalable solutions",
-    "motivation": "Building technology that makes a real impact on people's lives through AI and automation"
+    "traits": ["vision-driven", "analytical", "hands-on builder", "strategic thinker"],
+    "interests": ["Startup building", "Embedded Systems", "AI/ML", "Electronics", "Guitar"],
+    "workingStyle": "I combine engineering precision with high-level experimentation and rapid validation.",
+    "motivation": "To build hardware-software systems that solve real-world learning and engineering problems."
   },
   "resume": {
-    "title": "Anuj Jain - Resume",
-    "description": "Full-stack Python Developer & AI Engineer | Amazon ML Summer School Trainee | SIH 2025 Finalist",
+    "title": "Lander Joshua O. Azarcon - Resume",
+    "description": "Computer Engineering Graduate | Built Hardware, Software & a Startup | Embedded Systems & Computer Vision",
     "fileType": "PDF",
-    "lastUpdated": "September 2025",
-    "fileSize": "2.1 MB",
-    "downloadUrl": "https://anujjainbatu.github.io/anujjainbatu/resume_show_16092025.pdf"
+    "lastUpdated": "January 2026",
+    "fileSize": "236 KB",
+    "downloadUrl": "https://landerazarcon.github.io/Lander_Joshua_Azarcon_Resume_Public.pdf"
   },
   "chatbot": {
-    "name": "Anuj",
+    "name": "Lander",
     "personality": "casual, enthusiastic, tech-savvy",
     "tone": "friendly and conversational",
     "language": "english",
@@ -378,7 +192,7 @@
       "What are your skills?",
       "Can I see your resume?",
       "What's your experience?",
-      "Are you looking for internships?",
+      "Are you looking for work?",
       "What makes you a valuable team member?",
       "Tell me about your Amazon ML Summer School experience",
       "What certifications do you have?",
@@ -413,12 +227,19 @@
       "Tell me something interesting about you",
       "What motivates you?",
       "What's a fun fact about you?"
-    ]
+    ]  
   },
   "meta": {
     "configVersion": "2.0",
-    "lastUpdated": "2025-09-15",
-    "generatedBy": "Anuj Jain",
-    "description": "Updated portfolio configuration with latest resume information including Amazon ML Summer School, updated projects, and enhanced certifications"
-  }
+    "lastUpdated": "2026-02-13",
+    "generatedBy": "Lander Joshua O. Azarcon",
+    "description": "Portfolio configuration generated from updated resume."
+  },
+  "internship": {
+  "seeking": false,
+  "duration": "N/A",
+  "startDate": "N/A",
+  "focusAreas": ["Embedded Systems", "Computer Vision", "Product Development"],
+  "goals": "Looking for opportunities to build innovative hardware-software solutions"
+}
 }

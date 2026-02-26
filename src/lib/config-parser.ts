@@ -49,10 +49,11 @@ CRITICAL: You must use tools to provide comprehensive information, not just text
 ### Technical Expertise
 - Programming Languages: ${skills.programming.join(', ')}
 - ML/AI Technologies: ${skills.ml_ai.join(', ')}
-- Web Development: ${skills.web_development.join(', ')}
-- Database Systems: ${skills.databases.join(', ')}
-- DevOps & Cloud: ${skills.devops_cloud.join(', ')}
-- IoT & Hardware: ${skills.iot_hardware.join(', ')}
+- Embedded Systems: ${skills.embedded_systems.join(', ')}
+- Tools: ${skills.tools.join(', ')}
+- Networking: ${skills.networking.join(', ')}
+- Fabrication: ${skills.fabrication.join(', ')}
+- Soft Skills: ${skills.soft_skills.join(', ')}
 
 ### Professional Experience
 ${experience.map(exp => `- ${exp.position} at ${exp.company} (${exp.duration}): ${exp.description}`).join('\n')}
@@ -98,9 +99,7 @@ REMEMBER: You are NOT an AI assistant - you are ${personal.name} being interview
       socials: [
         { name: 'LinkedIn', url: social.linkedin },
         { name: 'GitHub', url: social.github },
-        { name: 'Twitter', url: social.twitter },
-        { name: 'Kaggle', url: social.kaggle },
-        { name: 'LeetCode', url: social.leetcode },
+        { name: 'Instagram', url: social.instagram },
       ].filter(social => social.url !== '')
     };
   }
@@ -125,39 +124,46 @@ REMEMBER: You are NOT an AI assistant - you are ${personal.name} being interview
     
     return [
       {
-        category: 'Programming Languages',
-        skills: skills.programming,
-        color: 'bg-blue-50 text-blue-600 border border-blue-200'
+  name: 'Programming',
+  skills: skills.programming || [],
+  icon: '💻',
+  color: 'bg-blue-50 text-blue-600 border border-blue-200'
       },
       {
-        category: 'ML/AI Technologies',
-        skills: skills.ml_ai,
-        color: 'bg-purple-50 text-purple-600 border border-purple-200'
+  name: 'ML/AI',
+  skills: skills.ml_ai || [],
+  icon: '🤖',
+  color: 'bg-purple-50 text-purple-600 border border-purple-200'
       },
       {
-        category: 'Web Development',
-        skills: skills.web_development,
-        color: 'bg-green-50 text-green-600 border border-green-200'
+  name: 'Embedded Systems',
+  skills: skills.embedded_systems || [],
+  icon: '🔧',
+  color: 'bg-green-50 text-green-600 border border-green-200'
       },
       {
-        category: 'Databases',
-        skills: skills.databases,
-        color: 'bg-orange-50 text-orange-600 border border-orange-200'
+  name: 'Tools',
+  skills: skills.tools || [],
+  icon: '🛠️',
+  color: 'bg-orange-50 text-orange-600 border border-orange-200'
       },
       {
-        category: 'DevOps & Cloud',
-        skills: skills.devops_cloud,
-        color: 'bg-emerald-50 text-emerald-600 border border-emerald-200'
+  name: 'Networking',
+  skills: skills.networking || [],
+  icon: '🌐',
+  color: 'bg-cyan-50 text-cyan-600 border border-cyan-200'
       },
       {
-        category: 'IoT & Hardware',
-        skills: skills.iot_hardware,
-        color: 'bg-indigo-50 text-indigo-600 border border-indigo-200'
+  name: 'Fabrication',
+  skills: skills.fabrication || [],
+  icon: '⚙️',
+  color: 'bg-red-50 text-red-600 border border-red-200'
       },
       {
-        category: 'Soft Skills',
-        skills: skills.soft_skills,
-        color: 'bg-amber-50 text-amber-600 border border-amber-200'
+  name: 'Soft Skills',
+  skills: skills.soft_skills || [],
+  icon: '🤝',
+  color: 'bg-amber-50 text-amber-600 border border-amber-200'
       }
     ].filter(category => category.skills.length > 0);
   }
