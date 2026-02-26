@@ -33,10 +33,11 @@ export interface Experience {
 export interface Skills {
   programming: string[];
   ml_ai: string[];
-  web_development: string[];
-  databases: string[];
-  devops_cloud: string[];
-  iot_hardware: string[];
+  embedded_systems: string[];
+  tools: string[];
+  networking: string[];
+  fabrication: string[];
+  soft_skills: string[];
 }
 
 export interface ProjectLink {
