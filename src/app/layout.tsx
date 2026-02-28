@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Computer Engineering Graduate | Built Hardware, Software & a Startup | Embedded Systems & Computer Vision | Professional Portfolio",
+    default: "Lander Azarcon - Computer Engineering Graduate | Built Hardware, Software & a Startup | Embedded Systems & Computer Vision | Professional Portfolio",
     template: "%s | Lander  Azarcon Portfolio"
   },
   description: "Professional portfolio of Lander Joshua Azarcon - Computer Engineering Graduate and Founder of Vision Forge. Showcasing a Computer Vision–based gesture recognition system (Abacus GesturePRO), embedded systems hardware prototypes with custom PCB design, innovation center leadership experience, and product development from validation to IP filing. Available for full-time engineering opportunities in the Philippines.",
