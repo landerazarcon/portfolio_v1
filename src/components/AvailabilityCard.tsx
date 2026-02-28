@@ -14,7 +14,7 @@ interface AvailabilityData {
   };
   experience: {
     internshipCompleted: string;
-    freelanceWork: string;
+    technicalLeadership: string;
     projectExperience: string;
   };
   skills: {
@@ -63,13 +63,13 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
               src="/profile.jpeg"
-              alt="Anuj's avatar"
+              alt="Lander's avatar"
               className="h-full w-full object-cover object-[center_top_-5%] scale-95"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Anuj Jain
+              Lander Joshua Azarcon
             </h2>
             <p className="text-muted-foreground text-sm">
               Available for Opportunities
@@ -87,7 +87,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
             Available Now
           </span>
           <p className="text-xs text-muted-foreground text-center sm:text-right">
-            Open to full-time & internship roles
+            Open to full-time & contractual roles
           </p>
         </div>
       </div>
@@ -110,7 +110,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div>
             <p className="text-sm font-medium text-foreground mb-1">Looking for</p>
             <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">
-              Full-time roles, Internships & Contract work
+              Full-time roles & Contract work
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              {data?.preferences.location || "Based in India, open to relocation for the right opportunity 🇮🇳"}
+              {data?.preferences.location || "Based in the Philippines, ready to take on creative engineering opportunities."}
             </p>
           </div>
         </div>
@@ -148,10 +148,10 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
                   <li key={index}>{skill}</li>
                 )) || (
                   <>
-                    <li>Python, SQL, JavaScript, HTML/CSS</li>
-                    <li>FastAPI, Flask, Django, React.js</li>
-                    <li>Scikit-learn, XGBoost, TensorFlow, OpenCV</li>
-                    <li>OpenAI API, LangChain, LangGraph</li>
+                    <li>Python, C++, Java, SQL, PHP, Bash</li>
+                    <li>Computer Vision, Image Processing, Machine Learning</li>
+                    <li>Arduino, PCB Design, Circuit Design & Assembly, Ultrasonic Sensors</li>
+                    <li>MATLAB, AutoCAD, Visual Studio, Apache NetBeans</li>
                   </>
                 )}
               </ul>
@@ -160,10 +160,9 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
                   <li key={index}>{skill}</li>
                 )) || (
                   <>
-                    <li>Docker, Git, GitHub Actions, AWS</li>
-                    <li>Firebase, Heroku, ESP32, IoT</li>
-                    <li>Machine Learning, AI Agents</li>
-                    <li>Web Scraping, Automation</li>
+                    <li>Anaconda, Jupyter Notebook, Linux, Microsoft Excel</li>
+                    <li>LAN/WAN Configuration, TCP/IP, Network Troubleshooting, Cisco Packet Tracer</li>
+<                   li>3D Printing, Embedded Systems, Engineering Drawing</li>
                   </>
                 )}
                 <li>
@@ -186,9 +185,9 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          {data?.experience.internshipCompleted || "Real-world ML experience from MookMati (Genre classification, FastAPI deployment, AWS)."} <br /> 
-          {data?.achievements[0] || "2nd position in Smart India Hackathon 2025 among 88,221 teams with hideFlare cybersecurity tool."} <br /> 
-          {data?.experience.freelanceWork || "25+ freelance automation projects delivered on Fiverr, cutting manual work by 60%."}
+          {data?.experience.internshipCompleted || "Completed internships at FTIC (Programs & Operations), contributing to event execution, data analysis, and technical coordination."} <br />
+          {data?.achievements || "Built Abacus GesturePRO (Computer Vision thesis), developed an embedded ultrasonic musical instrument prototype, and founded Vision Forge under FTIC Tamaraw Labs."} <br />
+          {data?.experience.technicalLeadership || "Founder & CEO of Vision Forge — led 50+ validation interviews, refined prototypes, and filed intellectual property documents."}
         </p>
       </div>
 

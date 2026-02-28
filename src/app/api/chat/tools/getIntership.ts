@@ -21,8 +21,8 @@ export const getInternship = tool({
         internshipCompleted: config.experience.find(exp => exp.type === "Internship")?.company 
           ? `${config.experience.find(exp => exp.type === "Internship")?.position} at ${config.experience.find(exp => exp.type === "Internship")?.company} (${config.experience.find(exp => exp.type === "Internship")?.duration})`
           : "No formal internship completed yet",
-        freelanceWork: config.experience.find(exp => exp.type === "Freelance")?.description || "Active freelancer",
-        projectExperience: "Led multiple end-to-end projects including IoT systems and ML models"
+        technicalLeadership: config.experience.find(exp => exp.type === "Freelance")?.description || "Active freelancer",
+        projectExperience: "Built a Computer Vision gesture recognition system, developed an embedded ultrasonic hardware prototype with custom PCB, and led full product development lifecycle at Vision Forge."
       },
       skills: {
         technical: [
