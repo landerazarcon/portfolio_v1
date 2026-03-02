@@ -45,7 +45,7 @@ export async function POST(req: Request) {
     console.log('[CHAT-API] API key available:', process.env.GOOGLE_GENERATIVE_AI_API_KEY?.slice(0, 10) + '...');
 
     // Add system prompt
-    messages.unshift(SYSTEM_PROMPT);
+    //messages.unshift(SYSTEM_PROMPT); <=Claude recommend
 
     // Add tools
     const tools = {
@@ -56,24 +56,40 @@ export async function POST(req: Request) {
       getSkills,
       getInternship,
     };
-
     console.log('[CHAT-API] About to call streamText');
-    
-    const result = await streamText({
-      model: google('gemini-1.5-flash'),
-      messages,
-      tools,
-      maxSteps: 2,
-    });
+    console.log('[CHAT-API] Messages being sent:', JSON.stringify(messages, null, 2));
+    console.log('[CHAT-API] System prompt type:', typeof SYSTEM_PROMPT.content);
+    console.log('[CHAT-API] System prompt valid:', !!SYSTEM_PROMPT.content);
+  const result = await streamText({
+    model: google('gemini-2.5-flash'),  // ✅ correct model
+    system: SYSTEM_PROMPT.content,       // ✅ add system prompt back
+    messages,                            // ✅ use actual messages, not hardcoded ones
+    tools,                               // ✅ include tools
+  });
 
-    console.log('[CHAT-API] streamText completed successfully');
-    console.log('[CHAT-API] Result object keys:', Object.keys(result));
-    
-    const response = result.toDataStreamResponse();
-    console.log('[CHAT-API] DataStreamResponse created');
-    
-    return response;
+console.log('[CHAT-API] streamText completed successfully');
+
+// Try to consume the stream to see if there's an error
+for await (const chunk of result.textStream) {
+  console.log('[CHAT-API] Stream chunk:', chunk);
+  break; // Just log first chunk then break
+}
+
+const response = result.toDataStreamResponse();
+return response; //claude recommend
   } catch (error) {
+
+    console.error('=== DETAILED ERROR ===');
+    console.error('Error type:', error?.constructor?.name);
+    console.error('Error message:', error instanceof Error ? error.message : String(error));
+    console.error('Error stack:', error instanceof Error ? error.stack : 'No stack');
+  
+    // Check for specific Google API errors
+    if (error && typeof error === 'object' && 'status' in error) {
+      console.error('API Status:', error.status);
+    }
+  
+  // ... rest of your existing catch block
     console.error('Chat API error:', error);
     console.error('Error details:', error instanceof Error ? error.message : 'Unknown error');
     console.error('Error stack:', error instanceof Error ? error.stack : 'No stack trace');

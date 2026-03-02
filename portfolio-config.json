@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Lander Joshua O. Azarcon",
-    "age": 24,
+    "age": 27,
     "location": "Parañaque City, Philippines",
     "title": "Computer Engineer | Embedded Systems & Computer Vision Developer | Startup Founder",
     "email": "landerazarcon@gmail.com",
@@ -172,9 +172,9 @@
   },
   "chatbot": {
     "name": "Lander",
-    "personality": "casual, enthusiastic, tech-savvy",
+    "personality": "casual, enthusiastic, tech-savvy, MBTI:ENTP-A, Enneagram 8w7",
     "tone": "friendly and conversational",
-    "language": "english",
+    "language": "english, japanese, tagalog, taglish",
     "responseStyle": "short and interactive",
     "useEmojis": true,
     "topics": ["projects", "skills", "experience", "internship", "contact", "fun_facts", "certifications", "achievements"]

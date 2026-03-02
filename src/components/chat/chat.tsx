@@ -100,6 +100,11 @@ const Chat = () => {
     addToolResult,
     append,
   } = useChat({
+    api: '/api/chat',  // ← Claude recommended
+    body: {},  // ← ADD THIS
+    headers: {  // ← ADD THIS
+    'Content-Type': 'application/json',
+  },
     onResponse: (response) => {
       if (response) {
         setLoadingSubmit(false);
@@ -110,7 +115,11 @@ const Chat = () => {
     },
     onError: (error) => {
       setLoadingSubmit(false);
+      console.log('FULL ERROR OBJECT:', error);  // ← recommended by Claude
+      console.log('ERROR MESSAGE:', error.message);  // ← recommended by Claude
       console.error('Chat error:', error.message, error.cause);
+      console.log('ERROR CAUSE:', error.cause); // ← recommended by Claude
+      console.log('ERROR STACK:', error.stack); // ← recommended by Claude
       
       // Handle specific error types
       if (error.message?.includes('quota') || error.message?.includes('exceeded') || error.message?.includes('429')) {
